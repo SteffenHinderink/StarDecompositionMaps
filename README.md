@@ -80,7 +80,7 @@ They are required to have no degenerate or inverted tetrahedra.
 The function ```retetrahedrize``` using
 [TetGen](http://www.tetgen.org)
 can be used to achieve this.
-To represent boundary map $\psi$, corresponding boundary vertices of $M$ and $N$ must have the same indices.
+To represent the boundary map $\psi$, corresponding boundary vertices of $M$ and $N$ must have the same indices.
 Output are the compatible pairs of meshes $M_i$ and $N_i$.
 Their vertices are available in rational numbers in the property ```Q``` of type ```Vector3q```.
 The meshes $N_i$ are star-shaped such that a method like
