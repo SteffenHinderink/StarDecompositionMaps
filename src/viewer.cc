@@ -1089,7 +1089,13 @@ void Viewer::frame() {
         trans_ = false;
     }
     if (ImGui::IsWindowHovered() && io.MouseWheel != 0) {
-        if (ImGui::IsKeyDown(ImGuiKey_LeftCtrl)) {
+        if (ImGui::IsKeyDown(
+#ifdef __APPLE__
+                ImGuiKey_LeftSuper
+#else
+                ImGuiKey_LeftCtrl
+#endif
+                )) {
             if (io.MouseWheel > 0) {
                 scale_ *= 1.148698355; // = 2^(1/5) -> 5 scrolls from 1 to 0.5
                 if (scale_ > 1) {
