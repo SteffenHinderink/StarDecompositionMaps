@@ -1,0 +1,15 @@
+[submodule "ext/OpenVolumeMesh"]
+	path = ext/OpenVolumeMesh
+	url = https://www.graphics.rwth-aachen.de:9000/OpenVolumeMesh/OpenVolumeMesh.git
+[submodule "ext/OpenMesh"]
+	path = ext/OpenMesh
+	url = https://gitlab.vci.rwth-aachen.de:9000/OpenMesh/OpenMesh.git
+[submodule "ext/imgui"]
+	path = ext/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "ext/glfw"]
+	path = ext/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "ext/code"]
+	path = ext/tinyfiledialogs
+	url = https://git.code.sf.net/p/tinyfiledialogs/code
