@@ -28,7 +28,7 @@ If you find this code useful, please consider citing our paper:
   journal = {ACM Trans. Graph.},
   volume  = {43},
   number  = {6},
-  pages   = {x:1--x:11}
+  pages   = {168:1--168:11}
 }
 ```
 
