@@ -3,7 +3,7 @@
 <img src=sdm-image.jpeg width=375 align=right>
 
 This is an implementation of the volumetric mapping method presented in the SIGGRAPH Asia 2024 paper
-"[**Bijective Volumetric Mapping via Star Decomposition**](http://graphics.cs.uos.de/papers/sdm-preprint.pdf)".
+"[**Bijective Volumetric Mapping via Star Decomposition**](http://graphics.cs.uos.de/papers/Bijective_Volumetric_Mapping_via_Star_Decomposition-SA2024-Preprint.pdf)".
 Previous restrictions to star-shaped or convex shapes are lifted.
 The central idea is a systematic decomposition into simpler subproblems.
 
